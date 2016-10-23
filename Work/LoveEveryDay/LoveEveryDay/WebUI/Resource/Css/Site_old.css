@@ -1,0 +1,240 @@
+﻿
+body, html {
+    height: 100%;
+    scrollbar-face-color: #FF0000;
+    scrollbar-highlight-color: #00FF00;
+    scrollbar-darkshadow-color: #ff0000;
+    scrollbar-3dlight-color: #ff0000;
+    scrollbar-arrow-color: #ff0000;
+    scrollbar-track-color: #ffcccc;
+    scrollbar-darkshadow-color: #ffffff;
+}
+
+.red {
+    color: red;
+}
+
+#web-content {
+    margin-top: -20px;
+    height: 100%;
+    overflow: hidden;
+}
+
+#web-footer {
+    position: absolute;
+    height: 48px;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    border-top: 2px solid rgb(167,177,194);
+    background-color: rgb(41,56,70);
+}
+
+.row-in {
+    padding-left: 0px;
+    padding-right: 0px;
+    height: calc(100% - 100px) !important;
+    overflow: hidden;
+}
+
+/*#adminInfo {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(38,57,73);
+}
+
+@media (max-width: 756px) {
+    #adminInfo {
+        height: 100px;
+    }
+}*/
+
+#navbar {
+    padding-top: 20px;
+}
+
+.web-left, .web-right {
+    height: 100%;
+}
+
+.web-left {
+    overflow-y: hidden;
+}
+
+
+/*左侧菜单*/
+#menu {
+    padding-top: 0px;
+    width: 100%;
+    height:100%;
+    padding-left: 0px;
+    background-color: rgb(47,64,80);
+    color: #f6f1f1;
+}
+
+    #menu #menuUl {
+        padding-left: 0px;
+    }
+
+    #menu ul li {
+        padding: 0px;
+        height: 40px;
+        width: 100%;
+        overflow: hidden;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+        #menu ul li span {
+            line-height: 40px;
+        }
+
+        #menu ul li.hot {
+            height: auto;
+            border-left: 4px solid #2dce7f;
+            background-color: rgb(41,56,70);
+        }
+
+        #menu ul li h2 {
+            background-color: rgb(47,64,80);
+            margin-bottom: 1px;
+            border-bottom: 1px solid #000;
+            border-top: 1px solid #736f7c;
+            margin-top: 0px;
+            height: 40px;
+            line-height: 32px;
+            font-size: 14px;
+            font-weight: normal;
+            cursor: pointer;
+            text-align: center;
+            /*border: 1px solid #404040;*/
+            position: relative;
+            padding-top: 0px;
+            color: rgb(167,177,194);
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+            #menu ul li h2:hover {
+                background-color: rgb(41,56,70);
+                color: #fff;
+            }
+
+            #menu ul li h2 span.arrow {
+                position: absolute;
+                right: 15px;
+            }
+
+        #menu ul li a {
+            background-color: rgb(41,56,70);
+            text-align: center;
+            display: block;
+            margin-bottom: 1px;
+            line-height: 25px;
+            padding: 2px 8px 2px 8px;
+            /*border: 1px solid #756c6c;*/
+            color: rgb(167,177,194);
+        }
+
+            #menu ul li a:hover {
+                background-color: #141626;
+                color: #fff;
+            }
+
+            #menu ul li a:hover, #menu ul li a.hot {
+                color: #fff;
+            }
+
+/*右侧导航内容*/
+.content-tabs {
+    position: relative;
+    height: 40px;
+    background: #fafafa;
+    line-height: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+    .content-tabs .btn, .btn-group {
+        height: 100%;
+        position: absolute;
+        border-radius: 0px;
+        outline: 0;
+    }
+
+    .content-tabs .roll-btn-right {
+        right: 160px;
+    }
+
+    .content-tabs .roll-group-right {
+        right: 160px;
+    }
+
+    .content-tabs .roll-link-right {
+        line-height: 30px;
+        width: 66px;
+        right: 0px;
+    }
+
+
+nav.page-tabs {
+    position: absolute;
+    margin-left: 40px;
+    width: 100000px;
+    height: 40px;
+    overflow: hidden;
+}
+
+    nav.page-tabs .page-tabs-content {
+        float: left;
+    }
+
+.page-tabs a {
+    display: block;
+    text-decoration: none;
+    float: left;
+    border-right: solid 2px #eee;
+    padding: 0px 15px;     
+    /*line-height:69px;*/
+}
+
+    .page-tabs a:hover {
+        color: #777;
+        background: #f2f2f2;
+        cursor: pointer;
+    }
+
+    .page-tabs a span:hover {
+        /*color: #c00;*/
+        background-color: #c00;
+    }
+
+.close-badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 1px 5px 0px 4px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #777;
+    border-radius: 10px;
+}
+
+.content-main {
+    height: 100%;
+    overflow: hidden;
+    padding: 1px;
+    padding-bottom: 44px;
+}
+
+.page-tabs a.active {
+    background: #2f4050;
+    color: #a7b1c2;
+}
+
+    .page-tabs a.active i:hover, .page-tabs a.active:hover {   
+        color: #fff;
+    }

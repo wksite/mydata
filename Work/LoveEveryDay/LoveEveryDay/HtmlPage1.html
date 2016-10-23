@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+        }
+
+        ul {
+            list-style: none;
+        }
+
+
+        .showline {
+            outline: 1px solid green;
+        }
+
+        .accordion > li {
+            min-height: 50px;
+            border: 1px solid green;
+        }
+
+            .accordion > li > a {
+                display: block;
+                line-height: 40px;
+                height: 40px;
+            }
+
+        .accordion li {
+            width: 150px;
+            background-color: #ff6a00;
+        }
+
+        .accordion > li li {
+            color: white;
+            width: 150px;
+            background-color: #b12929;
+        }
+
+            .accordion > li li > a {
+                min-height: 30px;
+                border: 1px solid yellow;
+            }
+    </style>
+</head>
+<body>
+    <ul id="accordion" class="accordion">
+        <li><a class="link" href="#">1</a>
+            <ul>
+                <li><a class="link" href="#">11</a>
+                    <ul>
+                        <li><a href="#">21</a></li>
+                        <li><a class="link" href="#">22</a>
+                            <ul>
+                                <li><a href="#">Photoshop</a></li>
+                                <li><a href="#">HTML</a></li>
+                                <li><a href="#">CSS</a></li>
+                                <li><a href="#">Maquetacion web</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="link" href="#">23</a>
+                            <ul>
+                                <li><a href="#">Photoshop</a></li>
+                                <li><a href="#">HTML</a></li>
+                                <li><a href="#">CSS</a></li>
+                                <li><a href="#">Maquetacion web</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">24</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">12</a></li>
+                <li><a href="#">13</a></li>
+            </ul>
+        </li>
+        <li><a class="link" href="#">2</a>
+            <ul>
+                <li><a href="#">Photoshop</a></li>
+                <li><a class="link" href="#">HTML</a>
+                    <ul>
+                        <li><a href="#">Photoshop</a></li>
+                        <li><a href="#">HTML</a>
+                        </li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">Maquetacion web</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">Maquetacion web</a></li>
+            </ul>
+        </li>
+
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+<script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#accordion li>a.link").each(function (index, data) {
+            data.addEventListener('touchstart', function (event) {
+                $(data).next("ul").slideToggle().parent().siblings().children("ul").slideUp();
+            });
+
+        })
+    })
+
+</script>
