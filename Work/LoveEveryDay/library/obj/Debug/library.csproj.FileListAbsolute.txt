@@ -3,3 +3,8 @@ C:\Users\user\Desktop\Work\LoveEveryDay\library\bin\library.pdb
 C:\Users\user\Desktop\Work\LoveEveryDay\library\obj\Debug\library.dll
 C:\Users\user\Desktop\Work\LoveEveryDay\library\obj\Debug\library.pdb
 C:\Users\user\Desktop\Work\LoveEveryDay\library\obj\Debug\library.csprojResolveAssemblyReference.cache
+D:\GitHub\mydata\Work\LoveEveryDay\library\bin\library.dll
+D:\GitHub\mydata\Work\LoveEveryDay\library\bin\library.pdb
+D:\GitHub\mydata\Work\LoveEveryDay\library\obj\Debug\library.csprojResolveAssemblyReference.cache
+D:\GitHub\mydata\Work\LoveEveryDay\library\obj\Debug\library.dll
+D:\GitHub\mydata\Work\LoveEveryDay\library\obj\Debug\library.pdb

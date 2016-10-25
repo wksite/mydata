@@ -1,7 +1,7 @@
 var menuList = [{
     "title": "主页",
     "iconClass": "glyphicon glyphicon-home",
-    "url": "/pageMain.html"
+    "url": "WebUI/Content/MainPage.html"
 },
 {
     "title": "总结",
@@ -40,7 +40,7 @@ var menuList = [{
                             {
                                 "title": "Css基础",
                                 "iconClass": "",
-                                "url": "Css基础.html"
+                                "url": "WebUI/Content/总结/前端/Css/Css基础.html"
                             },
                              {
                                  "title": "Less",
@@ -74,7 +74,7 @@ var menuList = [{
                              {
                                  "title": "jQuery基础",
                                  "iconClass": "",
-                                 "url": "jQuery基础.html"
+                                 "url": "WebUI/Content/总结/前端/jQuery/jquery基础.html"
                              },
                               {
                                   "title": "jQuery框架",
@@ -243,21 +243,6 @@ var menuList = [{
             "iconClass": "",
             "url": "/日常.html"
         }]
-},
-{
-    "title": "生活",
-    "iconClass": "glyphicon glyphicon-heart-empty",
-    "subMenuList": [
-{
-            "title": "私密",
-            "iconClass": "",
-            "url": "/私密.html"
-},
-{
-            "title": "公开",
-            "iconClass": "",
-            "url": "/公开.html"
-}]
 }
 ]
 
