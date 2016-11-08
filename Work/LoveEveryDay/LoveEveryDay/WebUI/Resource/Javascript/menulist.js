@@ -23,7 +23,7 @@ var menuList = [{
 
                                  "title": "html基础",
                                  "iconClass": "",
-                                 "url": "html基础.html"
+                                 "url": "/WebUI/Content/总结/前端/Html/Html基础列表.html"
                              },
                               {
                                   "title": "Canvas",
@@ -40,12 +40,12 @@ var menuList = [{
                             {
                                 "title": "Css基础",
                                 "iconClass": "",
-                                "url": "WebUI/Content/总结/前端/Css/Css基础.html"
+                                "url": "/WebUI/Content/总结/前端/Css/Css基础列表.html"
                             },
                              {
                                  "title": "Less",
                                  "iconClass": "",
-                                 "url": "Less.html"
+                                 "url": "/WebUI/Content/总结/前端/Css/Less/less.html"
                              }
                         ]
                     },
